@@ -1,0 +1,431 @@
+{
+  "language": "ua",
+  "messages": [
+    {
+      "id": "{Months} months",
+      "message": "{Months} months",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "Months",
+          "cases": {
+            "=1": {
+              "msg": "{Months} Місяць"
+            },
+            "=2": {
+              "msg": "{Months} місяці"
+            },
+            "=3": {
+              "msg": "{Months} місяці"
+            },
+            "=4": {
+              "msg": "{Months} місяці"
+            },
+            "other": {
+              "msg": "{Months} місяців"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "Months",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "counter.Months"
+        }
+      ]
+    },
+    {
+      "id": "{Days} days",
+      "message": "{Days} days",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "Days",
+          "cases": {
+            "=1": {
+              "msg": "{Days} День"
+            },
+            "=2": {
+              "msg": "{Days} дні"
+            },
+            "=3": {
+              "msg": "{Days} дні"
+            },
+            "=4": {
+              "msg": "{Days} дні"
+            },
+            "other": {
+              "msg": "{Days} днів"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "Days",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "counter.Days"
+        }
+      ]
+    },
+    {
+      "id": "{Hours} hours",
+      "message": "{Hours} hours",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "Hours",
+          "cases": {
+            "=1": {
+              "msg": "{Hours} Година"
+            },
+            "=2": {
+              "msg": "{Hours} години"
+            },
+            "=3": {
+              "msg": "{Hours} години"
+            },
+            "=4": {
+              "msg": "{Hours} години"
+            },
+            "other": {
+              "msg": "{Hours} годин"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "Hours",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "counter.Hours"
+        }
+      ]
+    },
+    {
+      "id": "{Minutes} minutes",
+      "message": "{Minutes} minutes",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "Minutes",
+          "cases": {
+            "=1": {
+              "msg": "{Minutes} Хвилина"
+            },
+            "=2": {
+              "msg": "{Minutes} хвилини"
+            },
+            "=3": {
+              "msg": "{Minutes} хвилини"
+            },
+            "=4": {
+              "msg": "{Minutes} хвилини"
+            },
+            "other": {
+              "msg": "{Minutes} хвилин"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "Minutes",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "counter.Minutes"
+        }
+      ]
+    },
+    {
+      "id": "New recurring event scheduled",
+      "message": "New recurring event scheduled",
+      "translation": "Запланована нова повторювана подія"
+    },
+    {
+      "id": "{RecurringCount} future instances also created",
+      "message": "{RecurringCount} future instances also created",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "RecurringCount",
+          "cases": {
+            "=1": {
+              "msg": "{RecurringCount} майбутній екземпляр також створено"
+            },
+            "=2": {
+              "msg": "{RecurringCount} майбутні екземпляри також створені"
+            },
+            "=3": {
+              "msg": "{RecurringCount} майбутні екземпляри також створені"
+            },
+            "=4": {
+              "msg": "{RecurringCount} майбутні екземпляри також створені"
+            },
+            "other": {
+              "msg": "{RecurringCount} майбутніх екземплярів також створені"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "RecurringCount",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "d.RecurringCount"
+        }
+      ]
+    },
+    {
+      "id": "1 event created",
+      "message": "1 event created",
+      "translation": "1 подія створена"
+    },
+    {
+      "id": "New event scheduled",
+      "message": "New event scheduled",
+      "translation": "Запланована нова подія"
+    },
+    {
+      "id": "New recurring event found",
+      "message": "New recurring event found",
+      "translation": "Знайдена нова повторювана подія"
+    },
+    {
+      "id": "{RecurringCount} future instances also found",
+      "message": "{RecurringCount} future instances also found",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "RecurringCount",
+          "cases": {
+            "=1": {
+              "msg": "{RecurringCount} майбутній екземпляр також знайдений"
+            },
+            "=2": {
+              "msg": "{RecurringCount} майбутні екземпляри також знайдені"
+            },
+            "=3": {
+              "msg": "{RecurringCount} майбутні екземпляри також знайдені"
+            },
+            "=4": {
+              "msg": "{RecurringCount} майбутні екземпляри також знайдені"
+            },
+            "other": {
+              "msg": "{RecurringCount} майбутніх екземплярів також знайдені"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "RecurringCount",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "d.RecurringCount"
+        }
+      ]
+    },
+    {
+      "id": "1 event found",
+      "message": "1 event found",
+      "translation": "1 подія знайдена"
+    },
+    {
+      "id": "New event found",
+      "message": "New event found",
+      "translation": "Знайдена одна подія"
+    },
+    {
+      "id": "Recurring Event Updated",
+      "message": "Recurring Event Updated",
+      "translation": "Повторювану подію оновлено"
+    },
+    {
+      "id": "{RecurringCount} future instances also updated",
+      "message": "{RecurringCount} future instances also updated",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "RecurringCount",
+          "cases": {
+            "=1": {
+              "msg": "{RecurringCount} будущий экземпляр также обновлен"
+            },
+            "=2": {
+              "msg": "{RecurringCount} будущих экземпляра также обновлены"
+            },
+            "=3": {
+              "msg": "{RecurringCount} будущих экземпляра также обновлены"
+            },
+            "=4": {
+              "msg": "{RecurringCount} будущих экземпляра также обновлены"
+            },
+            "other": {
+              "msg": "{RecurringCount} будущих экземпляров также обновлены"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "RecurringCount",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "d.RecurringCount"
+        }
+      ]
+    },
+    {
+      "id": "1 event updated",
+      "message": "1 event updated",
+      "translation": "1 мероприятие обновлено"
+    },
+    {
+      "id": "Event Updated",
+      "message": "Event Updated",
+      "translation": "Мероприятие обновлено"
+    },
+    {
+      "id": "Starting",
+      "message": "Starting",
+      "translation": "Начинается"
+    },
+    {
+      "id": "Recurring event has been cancelled",
+      "message": "Recurring event has been cancelled",
+      "translation": "Повторяющееся мероприятие было отменено"
+    },
+    {
+      "id": "{RecurringCount} future instances also cancelled",
+      "message": "{RecurringCount} future instances also cancelled",
+      "translation": {
+        "select": {
+          "feature": "plural",
+          "arg": "RecurringCount",
+          "cases": {
+            "=1": {
+              "msg": "{RecurringCount} будущий экземпляр также отменен"
+            },
+            "=2": {
+              "msg": "{RecurringCount} будущих экземпляра также отменены"
+            },
+            "=3": {
+              "msg": "{RecurringCount} будущих экземпляра также отменены"
+            },
+            "=4": {
+              "msg": "{RecurringCount} будущих экземпляра также отменены"
+            },
+            "other": {
+              "msg": "{RecurringCount} будущих экземпляров также отменены"
+            }
+          }
+        }
+      },
+      "placeholders": [
+        {
+          "id": "RecurringCount",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "d.RecurringCount"
+        }
+      ]
+    },
+    {
+      "id": "1 event cancelled",
+      "message": "1 event cancelled",
+      "translation": "1 мероприятие отменено"
+    },
+    {
+      "id": "Event has been cancelled",
+      "message": "Event has been cancelled",
+      "translation": "Событие было отменено"
+    },
+    {
+      "id": "Events for the next {Days} days",
+      "message": "Events for the next {Days} days",
+      "translation": "События на ближайшие  {Days} Дней",
+      "placeholders": [
+        {
+          "id": "Days",
+          "string": "%[1]d",
+          "type": "int",
+          "underlyingType": "int",
+          "argNum": 1,
+          "expr": "eventSummary.Days"
+        }
+      ]
+    },
+    {
+      "id": "All Day",
+      "message": "All Day",
+      "translation": "Весь день"
+    },
+    {
+      "id": "{Name} has created a notifier which connects this channel to an external calendar.",
+      "message": "{Name} has created a notifier which connects this channel to an external calendar.",
+      "translation": "{Name} создал оповещение, соединяющее этот канал с внешним календарем.",
+      "placeholders": [
+        {
+          "id": "Name",
+          "string": "%[1]s",
+          "type": "string",
+          "underlyingType": "string",
+          "argNum": 1,
+          "expr": "user.Name"
+        }
+      ]
+    },
+    {
+      "id": "{Name} has deleted a notifier which connected this channel to an external calendar.",
+      "message": "{Name} has deleted a notifier which connected this channel to an external calendar.",
+      "translation": "{Name} удалил оповещение, соединяющее этот канал с внешним календарем.",
+      "placeholders": [
+        {
+          "id": "Name",
+          "string": "%[1]s",
+          "type": "string",
+          "underlyingType": "string",
+          "argNum": 1,
+          "expr": "user.Name"
+        }
+      ]
+    },
+    {
+      "id": "Location",
+      "message": "Location",
+      "translation": "Место проведения"
+    },
+    {
+      "id": "Scheduled for",
+      "message": "Scheduled for",
+      "translation": "Запланировано на"
+    },
+    {
+      "id": "Duration",
+      "message": "Duration",
+      "translation": "Длительность"
+    }
+  ]
+}
